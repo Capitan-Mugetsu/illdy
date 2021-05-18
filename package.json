@@ -1,0 +1,30 @@
+{
+  "name": "illdy",
+  "version": "1.0.0",
+  "description": "Coding tashkent academy",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss/main.scss css/style.css -w",
+    "watch:sass": "sass scss/main.scss css/style.css -w",
+    "devserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asliddin2124/illdy.git"
+  },
+  "keywords": [
+    "illdy"
+  ],
+  "author": "cat__group",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asliddin2124/illdy/issues"
+  },
+  "homepage": "https://github.com/Asliddin2124/illdy#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.13"
+  }
+}

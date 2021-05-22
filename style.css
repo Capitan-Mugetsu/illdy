@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.heading-secondary {
+  color: #545454;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem; }
+
+.paragraph {
+  color: #8C9597;
+  margin-bottom: 0;
+  font-weight: 400;
+  padding: 0 19rem;
+  line-height: 2.6rem;
+  font-size: 1.6rem; }
+
+.u-text-center {
+  text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem; }
+
+.u-margin-top-big {
+  margin-top: 8rem; }
+
+.u-margin-top-medium {
+  margin-top: 4rem; }
+
+.u-margin-top-small {
+  margin-top: 2rem; }
+
+.row {
+  max-width: 114rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem;
+    margin-right: 5rem; }
+  .row [class^="col-"] {
+    padding: 2rem; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 5rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 5rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 5rem) / 3); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 5rem) / 4); }
+
+.section-about__progress {
+  display: flex;
+  justify-content: center; }
+  .section-about__progress--first {
+    width: 26%;
+    height: .2rem;
+    background-color: #ebebeb;
+    margin-right: 2rem; }
+  .section-about__progress--secondary {
+    width: 26%;
+    height: .2rem;
+    background-color: #ebebeb;
+    margin-right: 2rem; }
+  .section-about__progress--tertiary {
+    width: 26%;
+    height: .2rem;
+    background-color: #ebebeb; }
+  .section-about__progress--percent-1 {
+    width: 60%;
+    background-color: #F18B6D; }
+  .section-about__progress--percent-2 {
+    width: 82%;
+    background-color: #F1D204; }
+  .section-about__progress--percent-3 {
+    width: 86%;
+    background-color: #6A4D8A; }
+  .section-about__progress .progress {
+    height: .5rem;
+    margin-top: -.1rem; }
+  .section-about__progress--circle-1 {
+    background-color: #F18B6D;
+    margin-left: 59%; }
+  .section-about__progress--circle-2 {
+    background-color: #F1D204;
+    margin-left: 81%; }
+  .section-about__progress--circle-3 {
+    background-color: #6A4D8A;
+    margin-left: 85%; }
+  .section-about__progress .circle {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-top: -.75rem; }
+
+.section-about__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 13rem; }
+
+.section-about .heading-title {
+  font-size: 1.4rem;
+  font-weight: 400; }
+  .section-about .heading-title--primary {
+    color: #F18B6D; }
+  .section-about .heading-title--secondary {
+    color: #F1D204;
+    margin-left: -2rem; }
+  .section-about .heading-title--tertiary {
+    color: #6A4D8A;
+    margin-right: 25rem; }
+  .section-about .heading-title i {
+    font-size: 1.3rem;
+    margin-right: .5rem; }
+
+.section-about__message-box {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem; }
+  .section-about__message-box--primary {
+    background-color: #F18B6D;
+    margin-left: 16.5rem; }
+  .section-about__message-box--secondary {
+    background-color: #F1D204;
+    margin-left: 9.5rem; }
+  .section-about__message-box--tertiary {
+    background-color: #6A4D8A;
+    margin-left: 3rem; }
+  .section-about__message-box .message {
+    padding: .5rem 1rem;
+    text-align: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0% 75%);
+    border-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    font-size: 1.6rem;
+    color: #fff; }
+
+.section-projects {
+  background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+  background-repeat: repeat;
+  background-size: auto; }
+  .section-projects__images {
+    display: flex;
+    width: 100%;
+    cursor: pointer; }
+    .section-projects__images img {
+      width: 25%;
+      transition: all .3s; }
+    .section-projects__images img:hover {
+      opacity: .5; }

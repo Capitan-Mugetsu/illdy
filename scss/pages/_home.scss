@@ -1,0 +1,156 @@
+.section-about {
+    
+    &__progress {
+        display: flex;
+        justify-content: center;
+
+        &--first {
+            width: 26%;
+            height: .2rem;
+            background-color: #ebebeb;
+            margin-right: 2rem;
+        }
+
+        &--secondary {
+            width: 26%;
+            height: .2rem;
+            background-color: #ebebeb;
+            margin-right: 2rem;
+        }
+
+        &--tertiary {
+            width: 26%;
+            height: .2rem;
+            background-color: #ebebeb;
+        }
+
+        &--percent-1 {
+            width: 60%;
+            background-color: #F18B6D;
+        }
+
+        &--percent-2 {
+            width: 82%;
+            background-color: #F1D204;
+        }
+
+        &--percent-3 {
+            width: 86%;
+            background-color: #6A4D8A;
+        }
+
+        .progress {
+            height: .5rem;
+            margin-top: -.1rem;
+        }
+
+        &--circle-1 {
+            background-color: #F18B6D;
+            margin-left: 59%;
+        }
+
+        &--circle-2 {
+            background-color: #F1D204;
+            margin-left: 81%;
+        }
+
+        &--circle-3 {
+            background-color: #6A4D8A;
+            margin-left: 85%;
+        }
+
+        .circle {
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            margin-top: -.75rem;
+        }
+    }
+
+    &__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 13rem;
+    }
+
+    .heading-title {
+        font-size: 1.4rem;
+        font-weight: 400;
+
+        &--primary {
+            color: #F18B6D;
+        }
+
+        &--secondary {
+            color: #F1D204;
+            margin-left: -2rem;
+        }
+
+        &--tertiary {
+            color: #6A4D8A;
+            margin-right: 25rem;
+        }
+
+        i {
+            font-size: 1.3rem;
+            margin-right: .5rem;
+        }
+    }
+    
+    &__message-box {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1rem;
+        
+        &--primary {
+            background-color: #F18B6D;
+            margin-left: 16.5rem;
+        }
+
+        &--secondary {
+            background-color: #F1D204;
+            margin-left: 9.5rem;
+        }
+
+        &--tertiary {
+            background-color: #6A4D8A; 
+            margin-left: 3rem;
+        }
+
+        .message {
+            padding: .5rem 1rem;
+            text-align: center;
+            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0% 75%);
+            border-radius: .3rem;
+            border-bottom-left-radius: .3rem;
+            border-bottom-right-radius: .3rem;
+            font-size: $default-font-size;
+            color: $color-white;
+        }
+    }
+}
+
+.section-projects {
+    background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png);
+        background-repeat: repeat;
+        background-size: auto ;
+
+    &__images {
+        display: flex;
+        width: 100%;
+        cursor: pointer;
+
+        img {
+            width: 25%;
+            transition: all .3s;
+        }
+
+        & img:hover {
+            opacity: .5;
+        }
+    }
+}
+

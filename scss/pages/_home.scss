@@ -104,31 +104,70 @@
         justify-content: space-around;
         align-items: center;
         margin-bottom: 1rem;
-        
-        &--primary {
+
+        .rectangle-1 {
+            padding: .5rem 1.7rem;
             background-color: #F18B6D;
-            margin-left: 16.5rem;
-        }
-
-        &--secondary {
-            background-color: #F1D204;
-            margin-left: 9.5rem;
-        }
-
-        &--tertiary {
-            background-color: #6A4D8A; 
-            margin-left: 3rem;
-        }
-
-        .message {
-            padding: .5rem 1rem;
-            text-align: center;
-            clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 65% 75%, 50% 100%, 35% 75%, 0% 75%);
             border-radius: .3rem;
-            border-bottom-left-radius: .3rem;
-            border-bottom-right-radius: .3rem;
-            font-size: $default-font-size;
-            color: $color-white;
+            left: 8.6%;
+            margin-bottom: .5rem;
+            position: relative;
+
+            .triangle-1 {
+                background-color: #F18B6D;
+                padding: 1.5rem 3rem;
+                clip-path: polygon(50% 100%, 0 0, 100% 0);
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin-top: .3rem;
+                z-index: -1;
+            }
+        }
+
+        .rectangle-2 {
+            padding: .5rem 1.7rem;
+            background-color: #F1D204;
+            border-radius: .3rem;
+            left: 8.5%;
+            margin-bottom: .5rem;
+            position: relative;
+
+            .triangle-2 {
+                background-color: #F1D204;
+                padding: 1.5rem 3rem;
+                clip-path: polygon(50% 100%, 0 0, 100% 0);
+                position: absolute;
+                top: 0;
+                left: 0;
+                margin-top: .3rem;
+                z-index: -1;
+            }
+        }
+
+        .rectangle-3 {
+            padding: .5rem 1.7rem;
+            background-color: #6A4D8A;
+            border-radius: .3rem;
+            left: 3.7%;
+            margin-bottom: .3rem;
+            position: relative;
+
+            .triangle-3 {
+                background-color: #6A4D8A;
+                padding: 1.5rem 3rem;
+                clip-path: polygon(50% 100%, 0 0, 100% 0);
+                position: absolute;
+                top: 0; 
+                left: 0;
+                margin-top: .3rem;
+                z-index: -1;
+            }
+        }
+
+        span {
+            font-size: 1.4rem;
+            color: white;
         }
     }
 }
